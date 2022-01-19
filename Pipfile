@@ -4,6 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+psycopg2-binary = "==2.9.2"
+django = "==4.0"
+djangorestframework = "==3.13.1"
+pytest-django = "==4.5.2"
+pytest = "==6.2.5"
 
 [dev-packages]
 
